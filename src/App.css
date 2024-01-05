@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  text-align: center;
+  background-color: "lavender";
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.correct {
+  font-weight: bold;
+  color: greenyellow;
+  /* background-color: #333; */
+}
+
+.incorrect {
+  font-weight: bold;
+  color: red;
+  /* background-color: #333; */
+}
+
+.active {
+  font-weight: bold;
+  color: dodgerblue;
+  font-size: xxx-large;
+}
+
+.timer {
+  color: salmon;
+  padding: 5px;
+  border: 3px solid salmon;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: "10px";
+}
+
+.speed {
+  color: dodgerblue;
+  padding: 5px;
+  border: 3px solid dodgerblue;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: "10px";
+}
+
+h4 {
+  font-size: x-large;
+  font-family: Tahoma;
+  margin: 0px;
+  padding: 20px 10px;
+  color: grey;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  font-size: x-large;
+  font-weight: bold;
+  color: dodgerblue;
+  border: none;
+}
